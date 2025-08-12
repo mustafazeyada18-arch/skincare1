@@ -1,0 +1,59 @@
+.section-3 {
+            height: 1024px;
+            border: 1px solid;
+            position: relative;
+        }
+
+        .section-3-text-container {
+            position: absolute;
+            top: 20px;
+            left: 100px;
+            width: 739px;
+            top: 120px;
+            left: 40px;
+            height: 116px;
+            
+        }
+
+
+        .section-3-small-text {
+            width: 739px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 23.8px;
+            margin-bottom: px;
+            color: rgba(51, 51, 51, 1);
+        }
+
+        .section-3-main-pararagraph {
+            width: 739px;
+            margin-top: 5px;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 40px;
+            color: rgba(51, 51, 51, 1);
+        }
+
+        .section-3-description {
+            width: 739px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27px;
+            color: rgba(51, 51, 51, 1);
+            margin-top: 25px;
+
+        }
+
+
+        /* items */
+
+
+
+        .section-3-items {
+            border: 1px solid;
+            margin-top:270px ;
+            height: 586px;
+            width: 90;
+            margin-left: 40px;
+            margin-right: 40px;
+        }

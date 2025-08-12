@@ -1,0 +1,148 @@
+       .announcement-bar {
+            width: 100%;
+            height: 48px;
+            background-color: #333333;
+        }
+
+        .announcement {
+            color: white;
+            text-align: center;
+            padding-top: 12px;
+            font-size: 20px;
+            font-family: arial;
+        }
+
+        .header {
+            background-color: white;
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            border: 1px solid;
+
+        }
+
+        .left-section {
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 248px;
+            margin-left: 17px;
+        }
+
+        .middle-section {
+            display: flex;
+            align-items: center;
+            width: 100px;
+
+        }
+
+        .right-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 231px;
+            margin-right: 21px;
+        }
+
+        /* stops */
+
+
+
+        .background-img {
+            background-image: url('8b84e0244896c1f5862c73a4b5bfd38ef6d889fb.png');
+            background-size: cover;
+            background-position: center;
+            height: 740px;
+            width: 100%;
+            position: relative;
+            /* remove it later */
+            border: 1px solid;
+        }
+
+        /* text */
+        .small-text {
+            color: white;
+            position: absolute;
+            top: 215px;
+            left: 100px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        .main-pararagraph {
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 30px;
+            font-weight: 600;
+            position: absolute;
+            top: 255px;
+            left: 100px;
+        }
+
+        .description {
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 1.25;
+            position: absolute;
+            top: 300px;
+            left: 100px;
+            width: 370px;
+        }
+
+        /*button  */
+
+        .discover-btn {
+            display: inline-block;
+            padding: 25px 40px;
+            border: 2px solid white;
+            color: white;
+            background: transparent;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            text-decoration: none;
+            position: absolute;
+            left: 103px;
+            top: 385px;
+        }
+
+
+        .arrow {
+            display: inline-block;
+            margin-left: 10px;
+            width: 8px;
+            height: 8px;
+            border-top: 2px solid white;
+            border-right: 2px solid white;
+            transform: rotate(45deg);
+        }
+
+        .discover-btn {
+
+            transition: all 0.3s ease;
+        }
+
+
+
+        .discover-btn:hover {
+            color: black;
+            background: white;
+            box-shadow: 0 0 15px white;
+            transform: translateY(-2px);
+            cursor: pointer;
+        }
+
+        .discover-btn:hover .arrow {
+            border-top: 2px solid black;
+            border-right: 2px solid black;
+            transform: rotate(45deg) scale(1.2);
+        }
+
+        .discover-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 0 5px white;
+        }

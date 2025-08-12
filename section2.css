@@ -1,0 +1,85 @@
+ .section-2 {
+            display: flex;
+            align-items: center; 
+            justify-content: center;
+            gap: 190px; 
+            padding: 50px;
+            border: 1px solid;
+            height: 830px; 
+        }
+
+        .section-2-image img {
+            width: 562px;
+            height: 530px;
+            object-fit: cover;
+              margin-left: -170px;
+        }
+
+        .section-2-text-container {
+            max-width: 550px;
+            font-family: Arial, sans-serif;
+        }
+
+        .section-2-small-text {
+            color: rgba(51, 51, 51, 1);
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+
+        .section-2-main-pararagraph {
+            color: rgba(51, 51, 51, 1);
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 40px;
+            margin-bottom: 20px;
+        }
+
+        .section-2-description {
+            color: rgba(51, 51, 51, 1);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 27px;
+            margin-bottom: 30px;
+        }
+
+        /* button */
+        .ream-more-btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 15px 30px;
+            border: 1px solid #b8a49c;
+            color: #b8a49c;
+            background: transparent;
+            font-size: 16px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .arrow {
+            margin-left: 10px;
+            width: 8px;
+            height: 8px;
+            border-top: 2px solid #b8a49c;
+            border-right: 2px solid #b8a49c;
+            transform: rotate(45deg);
+            transition: all 0.3s ease;
+        }
+
+        .ream-more-btn:hover {
+            color: white;
+            background: #b8a49c;
+            box-shadow: 0 0 15px rgba(184, 164, 156, 0.6);
+            transform: translateY(-2px);
+        }
+
+        .ream-more-btn:hover .arrow {
+            border-top: 2px solid white;
+            border-right: 2px solid white;
+            transform: rotate(45deg) scale(1.2);
+        }
+
+        .ream-more-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 0 5px rgba(184, 164, 156, 0.4);
+        }
